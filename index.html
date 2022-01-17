@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <main>
+        <!-- <div id="container"> -->
+            <h1>Expensas</h1>
+            <form action="" id="box-form">
+                <div id="box-options">
+                    <div class="box-individual">
+                        <label for="método">Método</label>
+                        <!-- <input type="text" name="método" id="método"> -->
+                        <select name="método" id="metodo" value="Elige método de pago">
+                            <option class="box-individual-opcion">Efectivo</option>
+                            <option class="box-individual-opcion">Débito</option>
+                            <option class="box-individual-opcion">Crédito</option>
+                        </select>
+                    </div>
+                    <!--  -->
+                    <div class="box-individual">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                    <!--  -->
+                    <div class="box-individual">
+                        <label for="compra">Compra</label>
+                        <input type="text" name="compra" id="compra">
+                    </div>
+                    <!--  -->
+                    <div class="box-individual">
+                        <label for="monto">Monto</label>
+                        <input type="number" min="0" name="monto" id="monto">
+                    </div>
+                </div>
+                <button type="submit" id="agregarBtn">Agregar</button>
+            </form>
+            <div id="box-expensas">
+                <!-- <ul class="box-expensas-titles">
+                    <li>Método</li>
+                    <li>Fecha</li>
+                    <li>Compra</li>
+                    <li>Monto</li>
+                    <li></li>
+                </ul> -->
+            </div>
+        <!-- </div>   -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
