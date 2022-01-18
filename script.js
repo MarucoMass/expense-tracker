@@ -28,7 +28,7 @@ function agregarExpensa(event){
     liMetodo.innerText = metodo;
     liFecha.innerText = fecha;
     liCompra.innerText = compra;
-    liMonto.innerText = monto;
+    liMonto.innerText = "$" + monto;
     // agregar los li al ul
     ul.appendChild(liMetodo);
     ul.appendChild(liFecha);
